@@ -1,0 +1,4 @@
+[Icon Theme]
+Name=macos
+Comment=macOS Big Sur Cursors
+Inherits="hicolor"

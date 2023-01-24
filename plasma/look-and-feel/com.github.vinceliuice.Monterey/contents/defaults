@@ -1,26 +1,37 @@
-[kcminputrc][Mouse]
-cursorTheme=WhiteSur-cursors
-
 [kdeglobals][General]
 ColorScheme=Monterey
 
 [kdeglobals][Icons]
-Theme=WhiteSur
+Theme=macOS-icons
 
 [kdeglobals][KDE]
 widgetStyle=kvantum
+
 
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.kde.breeze.desktop
+LayoutName=big_icons
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=XAI
 ButtonsOnRight=
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Monterey
+
+
+[kcminputrc][Mouse]
+cursorTheme=macOS-Cursors
+
+
+[KSplash]
+Theme=Monterey-dark
+
+
+[Wallpaper]
+Image=Monterey
+
 
 [plasmarc][Theme]
 name=Monterey
