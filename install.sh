@@ -8,12 +8,12 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
   SCHEMES_DIR="/usr/share/color-schemes"
   PLASMA_DIR="/usr/share/plasma/desktoptheme"
   LOOKFEEL_DIR="/usr/share/plasma/look-and-feel"
-  PLASMOID_DIR="$HOME/usr/share/plasma/plasmoids"
+  PLASMOID_DIR="/usr/share/plasma/plasmoids"
   KVANTUM_DIR="/usr/share/Kvantum"
   WALLPAPER_DIR="/usr/share/wallpapers"
   Cusrsor_DIR="/usr/share/icons"
-  Icons_DIR="$HOME/share/icons"
-
+  Icons_DIR="usr/share/icons"
+  EMOJIS_DIR="usr/share/fonts/truetype/noto/"
 else
   AURORAE_DIR="$HOME/.local/share/aurorae/themes"
   SCHEMES_DIR="$HOME/.local/share/color-schemes"
@@ -24,7 +24,7 @@ else
   WALLPAPER_DIR="$HOME/.local/share/wallpapers"
   Cusrsor_DIR="$HOME/.icons/"
   Icons_DIR="$HOME/.local/share/icons"
-  Fonts_DIR+"$HOME/.fonts"
+  Fonts_DIR="$HOME/.fonts"
 fi
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
@@ -69,7 +69,7 @@ install() {
   cp -r ${SRC_DIR}/icons/cursors/*                                                   ${Cusrsor_DIR}
   cp -r ${SRC_DIR}/icons/icons/*                                                     ${Icons_DIR}
   cp -r ${SRC_DIR}/fonts/*                                                           ${fonts_DIR}
-
+  cp -r ${SRC_DIR}/fonts/NotoColorEmoji.ttf                                          ${EMOJIS_DIR}
   [[ -d ${LATTE_DIR} ]] && cp -r ${SRC_DIR}/latte-dock/*                             ${LATTE_DIR}
 }
 
