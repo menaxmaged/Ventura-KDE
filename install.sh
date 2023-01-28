@@ -45,6 +45,15 @@ LATTE_DIR="$HOME/.config/latte"
 
 cp -rf "${SRC_DIR}"/configs/Xresources "$HOME"/.Xresources
 
+install_icons(){
+#git clone git@github.com:menaxmaged/MacOS-icon-theme.git
+cd MacOS-icon-theme
+./install.sh
+cd ..
+
+}
+
+
 install() {
   local name=${1}
   local color=${2}
