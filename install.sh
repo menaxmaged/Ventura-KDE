@@ -12,8 +12,8 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
   KVANTUM_DIR="/usr/share/Kvantum"
   WALLPAPER_DIR="/usr/share/wallpapers"
   Cusrsor_DIR="/usr/share/icons"
-  Icons_DIR="usr/share/icons"
-  EMOJIS_DIR="usr/share/fonts/truetype/noto/"
+  Icons_DIR="/usr/share/icons"
+  EMOJIS_DIR="/usr/share/fonts/truetype/noto/"
 else
   AURORAE_DIR="$HOME/.local/share/aurorae/themes"
   SCHEMES_DIR="$HOME/.local/share/color-schemes"
