@@ -1,10 +1,10 @@
 [Desktop Entry]
-Name=Monterey
-Comment=Monterey theme for plasma by vince
+Name=Ventura
+Comment=Ventura theme for plasma by vince
 
-X-KDE-PluginInfo-Author=Vince Liuice
-X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
-X-KDE-PluginInfo-Name=Monterey
+X-KDE-PluginInfo-Author=Mena Maged
+X-KDE-PluginInfo-Email=menaxmaged@gmail.com
+X-KDE-PluginInfo-Name=Ventura
 X-KDE-PluginInfo-Version=5.84.0
 X-KDE-PluginInfo-Website=https://plasma.kde.org
 X-KDE-PluginInfo-Category=
@@ -13,7 +13,7 @@ X-KDE-PluginInfo-EnabledByDefault=true
 X-Plasma-API=5.0
 
 [Wallpaper]
-defaultWallpaperTheme=Monterey
+defaultWallpaperTheme=Ventura
 defaultFileSuffix=.png
 defaultWidth=1920
 defaultHeight=1080

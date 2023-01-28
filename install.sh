@@ -29,7 +29,7 @@ fi
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
 
-THEME_NAME=Monterey
+THEME_NAME=Ventura
 LATTE_DIR="$HOME/.config/latte"
 
 [[ ! -d ${AURORAE_DIR} ]] && mkdir -p ${AURORAE_DIR}
@@ -74,9 +74,10 @@ install() {
   cp -r ${SRC_DIR}/plasma/desktoptheme/icons                                         ${PLASMA_DIR}/${name}-dark
   cp -r ${SRC_DIR}/plasma/look-and-feel/*                                            ${LOOKFEEL_DIR}
   cp -r ${SRC_DIR}/plasma/plasmoids/*                                                ${PLASMOID_DIR}
-  cp -r ${SRC_DIR}/wallpaper/${name}*                                                ${WALLPAPER_DIR}
+  cp -r ${SRC_DIR}/wallpaper/*                                                       ${WALLPAPER_DIR}
   cp -r ${SRC_DIR}/icons/cursors/*                                                   ${Cusrsor_DIR}
-  cp -r ${SRC_DIR}/icons/icons/*                                                     ${Icons_DIR}
+ install_icons
+ # cp -r ${SRC_DIR}/icons/icons/*                                                     ${Icons_DIR}
   cp -r ${SRC_DIR}/fonts/*                                                           ${fonts_DIR}
   cp -r ${SRC_DIR}/fonts/NotoColorEmoji.ttf                                          ${EMOJIS_DIR}
   [[ -d ${LATTE_DIR} ]] && cp -r ${SRC_DIR}/latte-dock/*                             ${LATTE_DIR}
