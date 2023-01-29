@@ -1,8 +1,9 @@
-<img src="https://github.com/vinceliuice/Sierra-gtk-theme/blob/imgs/logo.png" alt="Logo" align="right" /> Monterey KDE Theme
+<img src="https://github.com/vinceliuice/Sierra-gtk-theme/blob/imgs/logo.png" alt="Logo" align="right" /> 
+Ventura KDE Theme
 ======
 
-Monterey kde is a MacOS Monterey like theme for KDE Plasma desktop.
-
+Ventura kde is a MacOS Ventura like theme for KDE Plasma desktop.
+based on Monterey-kde theme from vinceliuice
 In this repository you'll find:
 
 - Aurorae Theme
@@ -22,10 +23,7 @@ In this repository you'll find:
 
 - For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL.md#distributions).
 
-  Run `kvantummanager` to choose and apply **Monterey** (or any other Monterey) theme.
-
-- Install [WhiteSur icon theme](https://github.com/vinceliuice/WhiteSur-icon-theme) for a more consistent and beautiful experience.
-
+  Run `kvantummanager` to choose and apply **Ventura** (or any other Ventura) theme.
 - Install [WhiteSur cursors theme](https://github.com/vinceliuice/WhiteSur-cursors) for a more consistent and beautiful experience.
 
 ## Donate
@@ -40,7 +38,7 @@ GNU GPL v3
 
 ## preview
 
-![light](plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/previews/fullscreenpreview.jpg)
-![dark](plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/previews/fullscreenpreview.jpg)
+![light](plasma/look-and-feel/com.github.menaxmaged.Ventura/contents/previews/fullscreenpreview.jpg)
+![dark](plasma/look-and-feel/com.github.menaxmaged.Ventura-dark/contents/previews/fullscreenpreview.jpg)
 
 
