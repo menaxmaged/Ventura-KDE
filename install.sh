@@ -61,7 +61,7 @@ install() {
   [[ -d ${AURORAE_DIR}/${name} ]] && rm -rf ${AURORAE_DIR}/${name}*
   [[ -d ${PLASMA_DIR}/${name} ]] && rm -rf ${PLASMA_DIR}/${name}*
   [[ -f ${SCHEMES_DIR}/${name}.colors ]] && rm -rf ${SCHEMES_DIR}/${name}*.colors
-  [[ -d ${LOOKFEEL_DIR}/com.github.vinceliuice.${name} ]] && rm -rf ${LOOKFEEL_DIR}/com.github.vinceliuice.${name}*
+  [[ -d ${LOOKFEEL_DIR}/com.github.mena.${name} ]] && rm -rf ${LOOKFEEL_DIR}/com.github.mena.${name}*
   [[ -d ${KVANTUM_DIR}/${name} ]] && rm -rf ${KVANTUM_DIR}/${name}*
   [[ -d ${WALLPAPER_DIR}/${name} ]] && rm -rf ${WALLPAPER_DIR}/${name}*
   [[ -f ${LATTE_DIR}/${name}.layout.latte ]] && rm -rf ${LATTE_DIR}/${name}.layout.latte
@@ -78,8 +78,8 @@ install() {
   cp -r ${SRC_DIR}/icons/cursors/*                                                   ${Cusrsor_DIR}
  install_icons
  # cp -r ${SRC_DIR}/icons/icons/*                                                     ${Icons_DIR}
-  cp -r ${SRC_DIR}/fonts/*                                                           ${fonts_DIR}
-  cp -r ${SRC_DIR}/fonts/NotoColorEmoji.ttf                                          ${EMOJIS_DIR}
+  #cp -r ${SRC_DIR}/fonts/*                                                           ${fonts_DIR}
+ # cp -r ${SRC_DIR}/fonts/NotoColorEmoji.ttf                                          ${EMOJIS_DIR}
   [[ -d ${LATTE_DIR} ]] && cp -r ${SRC_DIR}/latte-dock/*                             ${LATTE_DIR}
 }
 
