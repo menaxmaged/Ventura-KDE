@@ -26,16 +26,6 @@ In this repository you'll find:
   Run `kvantummanager` to choose and apply **Ventura** (or any other Ventura) theme.
 - Install [WhiteSur cursors theme](https://github.com/vinceliuice/WhiteSur-cursors) for a more consistent and beautiful experience.
 
-## Donate
-
-If you like my project, you can donate at:
-
-<span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
-
-## License
-
-GNU GPL v3
-
 ## preview
 
 ![light](plasma/look-and-feel/com.github.menaxmaged.Ventura/contents/previews/fullscreenpreview.jpg)
