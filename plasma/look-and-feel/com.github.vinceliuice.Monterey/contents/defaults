@@ -1,5 +1,5 @@
 [kdeglobals][General]
-ColorScheme=Monterey
+ColorScheme=Ventura
 
 [kdeglobals][Icons]
 Theme=macOS-icons
@@ -18,7 +18,7 @@ LayoutName=big_icons
 ButtonsOnLeft=XAI
 ButtonsOnRight=
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Monterey
+theme=__aurorae__svg__Ventura
 
 
 [kcminputrc][Mouse]
@@ -34,4 +34,4 @@ Image=Monterey
 
 
 [plasmarc][Theme]
-name=Monterey
+name=Ventura

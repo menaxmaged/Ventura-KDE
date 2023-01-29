@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Monterey-dark
-Comment=Macos Monterey theme for kde plasma
+Name=Ventura-dark
+Comment=MacoOS Ventura theme for kde plasma
 Encoding=UTF-8
 Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
 Type=Service
@@ -9,12 +9,12 @@ X-KDE-ParentApp=
 X-KDE-ServiceTypes=Plasma/LookAndFeel
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-EnabledByDefault=true
-X-KDE-PluginInfo-Author=Vince Liuice
-X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+X-KDE-PluginInfo-Author=Mena Maged
+X-KDE-PluginInfo-Email=menaxmaged@gmail.com
 X-KDE-PluginInfo-License=GPL3.0
 X-KDE-PluginInfo-Version=0.1
-X-KDE-PluginInfo-Name=com.github.vinceliuice.Monterey-dark
-X-KDE-PluginInfo-Website=https://github.com/vinceliuice/Monterey-kde
+X-KDE-PluginInfo-Name=com.github.menaxmaged.ventura-dark
+X-KDE-PluginInfo-Website=https://github.com/vinceliuice/Ventura-KDE
 X-KDE-fallbackPackage=org.kde.breeze.desktop
 X-Plasma-MainScript=defaults
 

@@ -1,6 +1,5 @@
-
 [kdeglobals][General]
-ColorScheme=MontereyDark
+ColorScheme=VenturaDark
 
 [kdeglobals][Icons]
 Theme=macOS-icons
@@ -19,7 +18,7 @@ BorderSize=Tiny
 ButtonsOnLeft=XAI
 ButtonsOnRight=
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Monterey-dark
+theme=__aurorae__svg__Ventura-dark
 
 
 [kcminputrc][Mouse]
@@ -35,4 +34,4 @@ Image=Monterey-dark
 
 
 [plasmarc][Theme]
-name=Monterey-dark
+name=Ventura-dark
