@@ -1,0 +1,11 @@
+[Applications][discord]
+Seen=true
+
+[Applications][google-chrome]
+Seen=true
+
+[DoNotDisturb]
+Until=2023,1,29,1,19,0.857
+
+[Notifications]
+PopupTimeout=3000

@@ -1,0 +1,38 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+BackgroundColorMode=DocumentView::Light
+LastUsedVersion=210800
+SideBarPage=operations
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=32
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAqUAAAItAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1 Height 1920x1080=599
+eDP-1 Width 1920x1080=677
+eDP-1 XPosition 1920x1080=1166
+eDP-1 YPosition 1920x1080=244
+
+[Recent Files]
+File1[$e]=$HOME/Desktop/Ventura-KDE/wallpaper/Monterey/contents/screenshot.png
+File2[$e]=$HOME/Desktop/Ventura-KDE/plasma/look-and-feel/com.github.mena.ventura/contents/previews/preview.png
+File3[$e]=$HOME/Desktop/Ventura-KDE/plasma/look-and-feel/com.github.mena.ventura/contents/previews/fullscreenpreview.jpg
+File4[$e]=$HOME/Downloads/Lake
+File5[$e]=$HOME/Desktop/Ventura-KDE/icons/cursors/macOS-cursors/cursors/up-arrow
+File6[$e]=$HOME/Desktop/7d3be78e-d45d-46e6-a03d-018a3135d760.jpeg
+Name1[$e]=screenshot.png
+Name2[$e]=preview.png
+Name3[$e]=fullscreenpreview.jpg
+Name4[$e]=Lake
+Name5[$e]=up-arrow
+Name6[$e]=7d3be78e-d45d-46e6-a03d-018a3135d760.jpeg
+
+[SideBar]
+IsVisible ViewMode=true
+SideBarSplitterSizes=209,461

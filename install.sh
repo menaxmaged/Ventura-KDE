@@ -14,6 +14,7 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
   Cusrsor_DIR="/usr/share/icons"
   Icons_DIR="/usr/share/icons"
   EMOJIS_DIR="/usr/share/fonts/truetype/noto/"
+  CONF_DIR=""
 else
   AURORAE_DIR="$HOME/.local/share/aurorae/themes"
   SCHEMES_DIR="$HOME/.local/share/color-schemes"
@@ -25,6 +26,7 @@ else
   Cusrsor_DIR="$HOME/.icons/"
   Icons_DIR="$HOME/.local/share/icons"
   Fonts_DIR="$HOME/.fonts"
+  CONF_DIR="$HOME/.config/"
 fi
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
@@ -80,6 +82,7 @@ install() {
  # cp -r ${SRC_DIR}/icons/icons/*                                                     ${Icons_DIR}
   #cp -r ${SRC_DIR}/fonts/*                                                           ${fonts_DIR}
  # cp -r ${SRC_DIR}/fonts/NotoColorEmoji.ttf                                          ${EMOJIS_DIR}
+  cp -r ${SRC_DIR}/confs/*                                                            ${CONF_DIR}
   [[ -d ${LATTE_DIR} ]] && cp -r ${SRC_DIR}/latte-dock/*                             ${LATTE_DIR}
 }
 

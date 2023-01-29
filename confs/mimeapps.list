@@ -1,0 +1,5 @@
+
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/termius=termius-app.desktop
+x-scheme-handler/ssh=ktelnetservice5.desktop
