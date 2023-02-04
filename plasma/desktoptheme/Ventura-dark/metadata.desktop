@@ -1,28 +1,20 @@
 [Desktop Entry]
 Name=Ventura-dark
-Comment=Ventura theme for plasma by vince
-
-X-KDE-PluginInfo-Author=Mena Maged
-X-KDE-PluginInfo-Email=menaxmaged@gmail.com
-X-KDE-PluginInfo-Name=Ventura
-X-KDE-PluginInfo-Version=5.84.0
-X-KDE-PluginInfo-Website=https://plasma.kde.org
+X-KDE-PluginInfo-Author=menaxamged
 X-KDE-PluginInfo-Category=
-X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-Email=menaxmaged@gmail.com
 X-KDE-PluginInfo-EnabledByDefault=true
-X-Plasma-API=5.0
+X-KDE-PluginInfo-License=GPL3.0
+X-KDE-PluginInfo-Name=Ventura-dark
+X-KDE-PluginInfo-Version=.0.4
+X-KDE-PluginInfo-Website=
 
 [Wallpaper]
-defaultWallpaperTheme=Ventura
+defaultWallpaperTheme=Monterey
 defaultFileSuffix=.png
-defaultWidth=1920
-defaultHeight=1080
-
-[ContrastEffect]
-enabled=false
-contrast=0.2
-intensity=1.4
-saturation=10
+defaultHeight=1440
+defaultWidth=2560
 
 [AdaptiveTransparency]
-enabled=true
+enabled = true
