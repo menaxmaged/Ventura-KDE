@@ -9,12 +9,11 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
   PLASMA_DIR="/usr/share/plasma/desktoptheme"
   LOOKFEEL_DIR="/usr/share/plasma/look-and-feel"
   PLASMOID_DIR="/usr/share/plasma/plasmoids"
-  KVANTUM_DIR="/usr/share/Kvantum"
+  KVANTUM_DIR="/usr/local/share/Kvantum"
   WALLPAPER_DIR="/usr/share/wallpapers"
   Cusrsor_DIR="/usr/share/icons"
   Icons_DIR="/usr/share/icons"
-  EMOJIS_DIR="/usr/share/fonts/truetype/noto/"
-  CONF_DIR=""
+  GTK_DIR="/usr/share/themes"
 else
   AURORAE_DIR="$HOME/.local/share/aurorae/themes"
   SCHEMES_DIR="$HOME/.local/share/color-schemes"
@@ -26,9 +25,11 @@ else
   Cusrsor_DIR="$HOME/.icons/"
   Icons_DIR="$HOME/.local/share/icons"
   Fonts_DIR="$HOME/.fonts"
-  CONF_DIR="$HOME/.config/"
-fi
+  GTK_DIR="$HOME/.themes"
 
+fi
+CONF_DIR="$HOME/.config/"
+EMOJIS_DIR="/usr/share/fonts/truetype/noto/"
 SRC_DIR=$(cd $(dirname $0) && pwd)
 
 THEME_NAME=Ventura
@@ -43,7 +44,8 @@ LATTE_DIR="$HOME/.config/latte"
 [[ ! -d ${Cusrsor_DIR} ]] && mkdir -p ${Cusrsor_DIR}
 [[ ! -d ${Icons_DIR} ]] && mkdir -p ${Icons_DIR}
 [[ ! -d ${PLASMOID_DIR} ]] && mkdir -p ${PLASMOID_DIR}
-[[ ! -d ${Fonts_DIR} ]] && mkdir -p ${Fonts_DIR}
+[[ ! -d ${CONF_DIR} ]] && mkdir -p ${CONF_DIR}
+[[ ! -d ${GTK_DIR} ]] && mkdir -p ${GTK_DIR}
 
 cp -rf "${SRC_DIR}"/configs/Xresources "$HOME"/.Xresources
 
@@ -78,10 +80,12 @@ install() {
   cp -r ${SRC_DIR}/plasma/plasmoids/*                                                ${PLASMOID_DIR}
   cp -r ${SRC_DIR}/wallpaper/*                                                       ${WALLPAPER_DIR}
   cp -r ${SRC_DIR}/icons/cursors/*                                                   ${Cusrsor_DIR}
- install_icons
+
+  cp -r ${SRC_DIR}/gtk/themes/*                                                      ${GTK_DIR}
+# install_icons
  # cp -r ${SRC_DIR}/icons/icons/*                                                     ${Icons_DIR}
   #cp -r ${SRC_DIR}/fonts/*                                                           ${fonts_DIR}
- # cp -r ${SRC_DIR}/fonts/NotoColorEmoji.ttf                                          ${EMOJIS_DIR}
+  cp -r ${SRC_DIR}/fonts/NotoColorEmoji.ttf                                          ${EMOJIS_DIR}
   cp -r ${SRC_DIR}/confs/*                                                            ${CONF_DIR}
   [[ -d ${LATTE_DIR} ]] && cp -r ${SRC_DIR}/latte-dock/*                             ${LATTE_DIR}
 }
