@@ -9,7 +9,7 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
   PLASMA_DIR="/usr/share/plasma/desktoptheme"
   LOOKFEEL_DIR="/usr/share/plasma/look-and-feel"
   PLASMOID_DIR="/usr/share/plasma/plasmoids"
-  KVANTUM_DIR="/usr/local/share/Kvantum"
+  KVANTUM_DIR="/usr/share/Kvantum"
   WALLPAPER_DIR="/usr/share/wallpapers"
   Cusrsor_DIR="/usr/share/icons"
   Icons_DIR="/usr/share/icons"

@@ -1,3 +1,4 @@
 [Icon Theme]
 Name=macOS-Cursors
-
+Comment=macOS Monterey Cursors
+Inherits="hicolor"
