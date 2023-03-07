@@ -94,4 +94,9 @@ echo "Installing '${THEME_NAME} kde themes'..."
 
 install "${name:-${THEME_NAME}}"
 
+add-apt-repository ppa:papirus/papirus
+apt install webhttrack libgtkmm-3.0-1v5 libcdio-paranoia2 qt5-style-kvantum qt5-style-kvantum-themes libgtk2.0-0
+apt update && apt upgrade -y
+
+
 echo "Install finished..."
