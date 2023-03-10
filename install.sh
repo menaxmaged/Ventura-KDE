@@ -46,7 +46,6 @@ LATTE_DIR="$HOME/.config/latte"
 [[ ! -d ${Cusrsor_DIR} ]] && mkdir -p ${Cusrsor_DIR}
 [[ ! -d ${Icons_DIR} ]] && mkdir -p ${Icons_DIR}
 [[ ! -d ${PLASMOID_DIR} ]] && mkdir -p ${PLASMOID_DIR}
-[[ ! -d ${CONF_DIR} ]] && mkdir -p ${CONF_DIR}
 
 cp -rf "${SRC_DIR}"/configs/Xresources "$HOME"/.Xresources
 
@@ -116,6 +115,7 @@ sudo install_gtk
 sudo add-apt-repository ppa:papirus/papirus
 sudo apt install webhttrack libgtkmm-3.0-1v5 libcdio-paranoia2 qt5-style-kvantum qt5-style-kvantum-themes libgtk2.0-0
 sudo apt update && apt upgrade -y
+cp -r ${SRC_DIR}/confs/*                                                            ${CONF_DIR}
 
 
 echo "Install finished..."
