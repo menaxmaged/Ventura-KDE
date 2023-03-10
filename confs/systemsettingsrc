@@ -1,0 +1,23 @@
+[KFileDialog Settings]
+Recent Files[$e]=.face,file:$HOME/.face
+Recent URLs[$e]=file:$HOME/
+detailViewIconSize=64
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABAQAAALCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+eDP-1 Height 1920x1080=706
+eDP-1 Height 1920x1080 eDP-1=495
+eDP-1 Width 1920x1080=1028
+eDP-1 Width 1920x1080 eDP-1=960
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 XPosition 1920x1080=446
+eDP-1 XPosition 1920x1080 eDP-1=205
+eDP-1 YPosition 1920x1080=216
+eDP-1 YPosition 1920x1080 eDP-1=210
+
+[Open-with settings]
+CompletionMode=1
+History=kons

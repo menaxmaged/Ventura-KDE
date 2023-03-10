@@ -1,0 +1,14 @@
+[Applications][discord]
+Seen=true
+
+[Applications][google-chrome]
+Seen=true
+
+[Applications][org.telegram.desktop._d8f5f5300533252c325e1ea6a9c6ae98]
+Seen=true
+
+[DoNotDisturb]
+Until=2023,3,8,2,39,0.065
+
+[Notifications]
+PopupTimeout=3000

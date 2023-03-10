@@ -1,0 +1,124 @@
+[KFileDialog Settings]
+Recent Files[$e]=Lake.avif,file:$HOME/Downloads/Lake.avif
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+eDP-1 Height 1920x1080=460
+eDP-1 Height 1920x1080 eDP-1=440
+eDP-1 Width 1920x1080=462
+eDP-1 Width 1920x1080 eDP-1=404
+
+[Open-with settings]
+CompletionMode=1
+History=
+
+[PlasmaViews][Panel 123][Defaults]
+thickness=24
+
+[PlasmaViews][Panel 123][Horizontal1920]
+thickness=24
+
+[PlasmaViews][Panel 132]
+alignment=132
+panelOpacity=0
+panelVisibility=1
+
+[PlasmaViews][Panel 132][Defaults]
+minLength=982
+thickness=75
+
+[PlasmaViews][Panel 132][Horizontal1920]
+minLength=982
+thickness=75
+
+[PlasmaViews][Panel 2]
+floating=0
+panelOpacity=0
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=24
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=24
+
+[PlasmaViews][Panel 30][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 30][Horizontal1920]
+thickness=44
+
+[PlasmaViews][Panel 55][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 55][Vertical1080]
+thickness=44
+
+[PlasmaViews][Panel 78]
+floating=1
+
+[PlasmaViews][Panel 78][Defaults]
+thickness=20
+
+[PlasmaViews][Panel 78][Vertical1080]
+thickness=20
+
+[PlasmaViews][Panel 79]
+alignment=132
+floating=1
+panelOpacity=2
+panelVisibility=1
+
+[PlasmaViews][Panel 79][Defaults]
+maxLength=1920
+minLength=962
+thickness=66
+
+[PlasmaViews][Panel 79][Horizontal1920]
+maxLength=1920
+minLength=962
+thickness=66
+
+[PlasmaViews][Panel 83]
+alignment=132
+floating=1
+panelOpacity=2
+panelVisibility=1
+
+[PlasmaViews][Panel 83][Defaults]
+maxLength=1143
+minLength=1085
+offset=0
+thickness=56
+
+[PlasmaViews][Panel 83][Horizontal1920]
+maxLength=1143
+minLength=1085
+offset=0
+thickness=56
+
+[PlasmaViews][Panel 84]
+floating=1
+
+[PlasmaViews][Panel 84][Defaults]
+thickness=92
+
+[PlasmaViews][Panel 84][Horizontal1920]
+thickness=92
+
+[PlasmaViews][Panel 96]
+alignment=2
+panelOpacity=0
+panelVisibility=1
+
+[PlasmaViews][Panel 96][Defaults]
+thickness=400
+
+[PlasmaViews][Panel 96][Horizontal1920]
+thickness=50
+
+[PlasmaViews][Panel 96][Vertical1080]
+thickness=400
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

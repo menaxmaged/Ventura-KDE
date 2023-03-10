@@ -1,0 +1,8 @@
+[General]
+ColorScheme=VenturaDark
+
+[Icons]
+Theme=macOS-icons
+
+[KDE]
+widgetStyle=Breeze
