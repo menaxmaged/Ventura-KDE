@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 ROOT_UID=0
-
+: '
 # Destination directory
 if [ "$UID" -eq "$ROOT_UID" ]; then
   AURORAE_DIR="/usr/share/aurorae/themes"
@@ -13,7 +13,6 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
   WALLPAPER_DIR="/usr/share/wallpapers"
   Cusrsor_DIR="/usr/share/icons"
   Icons_DIR="/usr/share/icons"
-  GTK_DIR="/usr/share/themes"
 else
   AURORAE_DIR="$HOME/.local/share/aurorae/themes"
   SCHEMES_DIR="$HOME/.local/share/color-schemes"
@@ -25,8 +24,12 @@ else
   Cusrsor_DIR="$HOME/.icons/"
   Icons_DIR="$HOME/.local/share/icons"
   Fonts_DIR="$HOME/.fonts"
-  GTK_DIR="$HOME/.themes"
 
+fi
+'
+if [ "$UID" -eq "$ROOT_UID" ]; then
+ echo "Please run this script as a normal user"
+ exit
 fi
 CONF_DIR="$HOME/.config/"
 EMOJIS_DIR="/usr/share/fonts/truetype/noto/"
@@ -45,13 +48,20 @@ LATTE_DIR="$HOME/.config/latte"
 [[ ! -d ${Icons_DIR} ]] && mkdir -p ${Icons_DIR}
 [[ ! -d ${PLASMOID_DIR} ]] && mkdir -p ${PLASMOID_DIR}
 [[ ! -d ${CONF_DIR} ]] && mkdir -p ${CONF_DIR}
-[[ ! -d ${GTK_DIR} ]] && mkdir -p ${GTK_DIR}
 
 cp -rf "${SRC_DIR}"/configs/Xresources "$HOME"/.Xresources
 
 install_icons(){
-#git clone git@github.com:menaxmaged/MacOS-icon-theme.git
+git clone git@github.com:menaxmaged/MacOS-icon-theme.git
 cd MacOS-icon-theme
+./install.sh
+cd ..
+
+}
+
+install_gtk(){
+git clone git@github.com:menaxmaged/MacOS-gtk-theme.git
+cd MacOS-gtk-theme
 ./install.sh
 cd ..
 
@@ -61,6 +71,15 @@ cd ..
 install() {
   local name=${1}
   local color=${2}
+   AURORAE_DIR="/usr/share/aurorae/themes"
+  SCHEMES_DIR="/usr/share/color-schemes"
+  PLASMA_DIR="/usr/share/plasma/desktoptheme"
+  LOOKFEEL_DIR="/usr/share/plasma/look-and-feel"
+  PLASMOID_DIR="/usr/share/plasma/plasmoids"
+  KVANTUM_DIR="/usr/share/Kvantum"
+  WALLPAPER_DIR="/usr/share/wallpapers"
+  Cusrsor_DIR="/usr/share/icons"
+  Icons_DIR="/usr/share/icons"
 
   [[ -d ${AURORAE_DIR}/${name} ]] && rm -rf ${AURORAE_DIR}/${name}*
   [[ -d ${PLASMA_DIR}/${name} ]] && rm -rf ${PLASMA_DIR}/${name}*
@@ -85,18 +104,19 @@ install() {
 # install_icons
  # cp -r ${SRC_DIR}/icons/icons/*                                                     ${Icons_DIR}
   #cp -r ${SRC_DIR}/fonts/*                                                           ${fonts_DIR}
-  cp -r ${SRC_DIR}/fonts/NotoColorEmoji.ttf                                          ${EMOJIS_DIR}
+ # cp -r ${SRC_DIR}/fonts/NotoColorEmoji.ttf                                          ${EMOJIS_DIR}
   cp -r ${SRC_DIR}/confs/*                                                            ${CONF_DIR}
   [[ -d ${LATTE_DIR} ]] && cp -r ${SRC_DIR}/latte-dock/*                             ${LATTE_DIR}
 }
 
 echo "Installing '${THEME_NAME} kde themes'..."
 
-install "${name:-${THEME_NAME}}"
-
-add-apt-repository ppa:papirus/papirus
-apt install webhttrack libgtkmm-3.0-1v5 libcdio-paranoia2 qt5-style-kvantum qt5-style-kvantum-themes libgtk2.0-0
-apt update && apt upgrade -y
+sudo install "${name:-${THEME_NAME}}"
+sudo install_icons
+sudo install_gtk
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt install webhttrack libgtkmm-3.0-1v5 libcdio-paranoia2 qt5-style-kvantum qt5-style-kvantum-themes libgtk2.0-0
+sudo apt update && apt upgrade -y
 
 
 echo "Install finished..."
