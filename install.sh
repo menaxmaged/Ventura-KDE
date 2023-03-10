@@ -32,7 +32,6 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
  exit
 fi
 CONF_DIR="$HOME/.config/"
-EMOJIS_DIR="/usr/share/fonts/truetype/noto/"
 SRC_DIR=$(cd $(dirname $0) && pwd)
 
 THEME_NAME=Ventura
