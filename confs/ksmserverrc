@@ -1,0 +1,27 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[General]
+loginMode=emptySession
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10fbfe13312a000167865152800000178680005
+clientId2=10fbfe13312a000167865152800000178680008
+clientId3=10fbfe13312a000167865335300000178680022
+count=3
+discardCommand3[$e]=rm,$HOME/.config/session/dolphin_10fbfe13312a000167865335300000178680022_1678655715_497258
+program1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
+program2=pulseaudio
+program3=/usr/bin/dolphin
+restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,10fbfe13312a000167865152800000178680005_1678655715_497228
+restartCommand2=
+restartCommand3=/usr/bin/dolphin,-session,10fbfe13312a000167865335300000178680022_1678655715_497258
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=mena
+userId2=mena
+userId3=mena

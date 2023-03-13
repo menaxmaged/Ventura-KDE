@@ -127,6 +127,7 @@ Replace History=Ventura,\nVentura
 Search History=Monterey,png,22,mimes
 
 [MainWindow]
+eDP-1 Window-Maximized 1920x1080=true
 eDP-1 Window-Maximized 1920x1080 eDP-1=true
 
 [UiSettings]

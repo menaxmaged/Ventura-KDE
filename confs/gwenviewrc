@@ -1,0 +1,38 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=32
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAG4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1 XPosition 1920x1080=640
+eDP-1 YPosition 1920x1080=329
+
+[Recent Files]
+File1[$e]=/media/mena/GSP1RMCPRXF/هالة/33febed6-1d50-4407-9ad0-6014e9979bf2.jpg
+File10[$e]=/media/mena/GSP1RMCPRXF/هالة/a22cd6f4-2c50-493b-950e-ded8c1865feb.jpg
+File2[$e]=/media/mena/GSP1RMCPRXF/هالة/22.jpg
+File3[$e]=/media/mena/GSP1RMCPRXF/هالة/16b9b194-91b3-49af-93e8-bee6f6d7386f.jpg
+File4[$e]=/media/mena/GSP1RMCPRXF/هالة/9f11d42b-a1e9-4215-9751-dfbf1f83d288.jpg
+File5[$e]=/media/mena/GSP1RMCPRXF/هالة/6f32be69-4bb9-49e6-bc92-d91cb2fdaa23.jpg
+File6[$e]=/media/mena/GSP1RMCPRXF/هالة/2.jpg
+File7[$e]=/media/mena/GSP1RMCPRXF/هالة/1f7f42a1-d878-46ea-9c9d-e2ead19eb9a9.jpg
+File8[$e]=/media/mena/GSP1RMCPRXF/هالة/bf415833-e758-421f-a859-325f14e2f6bc.jpg
+File9[$e]=/media/mena/GSP1RMCPRXF/هالة/b275216c-3c0f-44df-9dff-000cc68a235d.jpg
+Name1[$e]=33febed6-1d50-4407-9ad0-6014e9979bf2.jpg
+Name10[$e]=a22cd6f4-2c50-493b-950e-ded8c1865feb.jpg
+Name2[$e]=22.jpg
+Name3[$e]=16b9b194-91b3-49af-93e8-bee6f6d7386f.jpg
+Name4[$e]=9f11d42b-a1e9-4215-9751-dfbf1f83d288.jpg
+Name5[$e]=6f32be69-4bb9-49e6-bc92-d91cb2fdaa23.jpg
+Name6[$e]=2.jpg
+Name7[$e]=1f7f42a1-d878-46ea-9c9d-e2ead19eb9a9.jpg
+Name8[$e]=bf415833-e758-421f-a859-325f14e2f6bc.jpg
+Name9[$e]=b275216c-3c0f-44df-9dff-000cc68a235d.jpg

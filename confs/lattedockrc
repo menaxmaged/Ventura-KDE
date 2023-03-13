@@ -4,8 +4,8 @@ Recent URLs[$e]=file:$HOME/Desktop/,file:$HOME/
 detailViewIconSize=16
 
 [KPropertiesDialog]
-eDP-1 Height 1920x1080=378
-eDP-1 Width 1920x1080=435
+eDP-1 Height 1920x1080=395
+eDP-1 Width 1920x1080=409
 
 [LatteSettingsDialog]
 downloadWindowSize=980,600

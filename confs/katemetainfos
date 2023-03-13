@@ -1,3 +1,15 @@
+[file:///home/mena/.config/session/dolphin_dolphin_dolphin]
+Bookmarks=
+Checksum=7181297407ca815996e44f71a0b3c5e536b6c95d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,3,13,5,19,6.625
+URL=file:///home/mena/.config/session/dolphin_dolphin_dolphin
+
 [file:///home/mena/Desktop/.vscode/extensions/extensions.json]
 Bookmarks=
 Checksum=be02b85bcfa754fa8c973910c74a334cf4f6bd66
@@ -9,6 +21,18 @@ Mode=JSON
 Mode Set By User=false
 Time=2023,3,8,2,42,56.145
 URL=file:///home/mena/Desktop/.vscode/extensions/extensions.json
+
+[file:///home/mena/Desktop/Breking Bad/S4/Breaking.Bad.S04E11.HDTV.XviD-ASAP.Campioni_Inter.NoTag.srt]
+Bookmarks=
+Checksum=24cdc62260de5a4f5f0444209475b5851f15f27d
+Encoding=ISO-8859-15
+Highlighting=SubRip Subtitles
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=SubRip Subtitles
+Mode Set By User=false
+Time=2023,3,11,15,8,49.608
+URL=file:///home/mena/Desktop/Breking Bad/S4/Breaking.Bad.S04E11.HDTV.XviD-ASAP.Campioni_Inter.NoTag.srt
 
 [file:///home/mena/Desktop/S4/breaking-bad-fourth-season-2011_HI_arabic-492703/What's Tag & NoTag file! - Must Read.txt]
 Bookmarks=
@@ -81,3 +105,15 @@ Mode=Bash
 Mode Set By User=false
 Time=2023,3,5,2,18,38.255
 URL=file:///media/DATA/LinuX/MYCONFIG/runme.sh
+
+[file:///media/mena/DATA/GitHub/Ventura-KDE/install.sh]
+Bookmarks=
+Checksum=634980198908dbf28d69f5b1588cc0b1383b6543
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,3,11,0,57,28.57
+URL=file:///media/mena/DATA/GitHub/Ventura-KDE/install.sh
