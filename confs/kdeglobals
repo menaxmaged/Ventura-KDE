@@ -152,7 +152,7 @@ toolBarFont=IOS 15 Black,10,-1,5,50,0,0,0,0,0
 Theme=macOS-icons-dark
 
 [KDE]
-LookAndFeelPackage=com.github.menaxmaged.Ventura-dark
+LookAndFeelPackage=net.codexeg.menaxmaged.Ventura-dark
 ShowDeleteCommand=true
 widgetStyle=kvantum-dark
 

@@ -28,7 +28,7 @@ In this repository you'll find:
 
 ## preview
 
-![light](plasma/look-and-feel/com.github.menaxmaged.Ventura/contents/previews/fullscreenpreview.jpg)
-![dark](plasma/look-and-feel/com.github.menaxmaged.Ventura-dark/contents/previews/fullscreenpreview.jpg)
+![light](plasma/look-and-feel/net.codexeg.menaxmaged.Ventura/contents/previews/fullscreenpreview.jpg)
+![dark](plasma/look-and-feel/net.codexeg.menaxmaged.Ventura-dark/contents/previews/fullscreenpreview.jpg)
 
 

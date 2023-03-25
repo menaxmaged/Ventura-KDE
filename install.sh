@@ -78,6 +78,8 @@ install() {
   Cusrsor_DIR="/usr/share/icons"
   Icons_DIR="/usr/share/icons"
  fonts_DIR="/usr/share/fonts/noto/"
+  Share_DIR="/usr/share/"
+
  [[ ! -d ${AURORAE_DIR} ]] && sudo mkdir -p ${AURORAE_DIR}
  [[ ! -d ${SCHEMES_DIR} ]] && sudo mkdir -p ${SCHEMES_DIR}
  [[ ! -d ${PLASMA_DIR} ]] && sudo mkdir -p ${PLASMA_DIR}
@@ -97,6 +99,7 @@ install() {
  [[ -d ${WALLPAPER_DIR}/${name} ]] && sudo rm -rf ${WALLPAPER_DIR}/${name}*
   [[ -f ${LATTE_DIR}/${name}.layout.latte ]] && sudo rm -rf ${LATTE_DIR}/${name}.layout.latte
 
+sudo  cp -r ${SRC_DIR}/share/*                                                           ${SHARE_DIR}
 sudo  cp -r ${SRC_DIR}/aurorae/*                                                         ${AURORAE_DIR}
 sudo  cp -r ${SRC_DIR}/Kvantum/*                                                         ${KVANTUM_DIR}
 sudo  cp -r ${SRC_DIR}/color-schemes/*                                                   ${SCHEMES_DIR}
@@ -115,11 +118,11 @@ sudo  cp -r ${SRC_DIR}/fonts/*                                                  
 echo "Installing '${THEME_NAME} kde themes'..."
 
 install "${name:-${THEME_NAME}}"
-install_icons
-install_gtk
-install_sddm
-sudo add-apt-repository ppa:papirus/papirus
-sudo apt install libgtkmm-3.0-1v5 libcdio-paranoia2 qt5-style-kvantum qt5-style-kvantum-themes libgtk2.0-0 latte-dock
+#install_icons
+#install_gtk
+#install_sddm
+#sudo add-apt-repository ppa:papirus/papirus
+#sudo apt install libgtkmm-3.0-1v5 libcdio-paranoia2 qt5-style-kvantum qt5-style-kvantum-themes libgtk2.0-0 latte-dock
 cp -r ${SRC_DIR}/confs/*                                                            ${CONF_DIR}
 
 
