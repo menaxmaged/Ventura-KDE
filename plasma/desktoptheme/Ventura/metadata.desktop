@@ -1,9 +1,10 @@
+
 [Desktop Entry]
 Name=Ventura
 X-KDE-PluginInfo-Author=menaxmaged
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Depends=
-X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+X-KDE-PluginInfo-Email=menaxmaged@gmail.com
 X-KDE-PluginInfo-EnabledByDefault=true
 X-KDE-PluginInfo-License=GPL3.0
 X-KDE-PluginInfo-Name=Ventura
@@ -11,7 +12,7 @@ X-KDE-PluginInfo-Version=.0.4
 X-KDE-PluginInfo-Website=
 
 [Wallpaper]
-defaultWallpaperTheme=Monterey
+defaultWallpaperTheme=Ventura
 defaultFileSuffix=.png
 defaultHeight=1440
 defaultWidth=2560
