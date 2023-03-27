@@ -78,7 +78,7 @@ install() {
   Cusrsor_DIR="/usr/share/icons"
   Icons_DIR="/usr/share/icons"
  fonts_DIR="/usr/share/fonts/noto/"
-  Share_DIR="/usr/share/"
+  SHARE_DIR="/usr/share/"
 
  [[ ! -d ${AURORAE_DIR} ]] && sudo mkdir -p ${AURORAE_DIR}
  [[ ! -d ${SCHEMES_DIR} ]] && sudo mkdir -p ${SCHEMES_DIR}

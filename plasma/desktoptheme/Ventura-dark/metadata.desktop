@@ -1,3 +1,4 @@
+
 [Desktop Entry]
 Name=Ventura-dark
 X-KDE-PluginInfo-Author=menaxamged
@@ -11,7 +12,7 @@ X-KDE-PluginInfo-Version=.0.4
 X-KDE-PluginInfo-Website=
 
 [Wallpaper]
-defaultWallpaperTheme=Ventura
+defaultWallpaperTheme=Ventura-dark
 defaultFileSuffix=.png
 defaultHeight=1440
 defaultWidth=2560

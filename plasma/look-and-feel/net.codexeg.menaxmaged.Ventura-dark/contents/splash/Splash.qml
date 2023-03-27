@@ -33,7 +33,7 @@ Image {
 
             anchors.centerIn: parent
 
-            source: "images/logo.svg"
+            source: "images/logos.svg"
 
 //            sourceSize.width: 503
 //            sourceSize.height: 99
