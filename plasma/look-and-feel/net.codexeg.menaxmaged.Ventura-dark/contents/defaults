@@ -2,7 +2,7 @@
 ColorScheme=VenturaDark
 
 [kdeglobals][Icons]
-Theme=macOS-icons
+Theme=macOS-icons-dark
 
 [kdeglobals][KDE]
 WidgetStyle=kvantum-dark
