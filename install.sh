@@ -118,11 +118,11 @@ sudo  cp -r ${SRC_DIR}/fonts/*                                                  
 echo "Installing '${THEME_NAME} kde themes'..."
 
 install "${name:-${THEME_NAME}}"
-#install_icons
-#install_gtk
-#install_sddm
-#sudo add-apt-repository ppa:papirus/papirus
-#sudo apt install libgtkmm-3.0-1v5 libcdio-paranoia2 qt5-style-kvantum qt5-style-kvantum-themes libgtk2.0-0 latte-dock
+install_icons
+install_gtk
+install_sddm
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt install libgtkmm-3.0-1v5 libcdio-paranoia2 qt5-style-kvantum qt5-style-kvantum-themes libgtk2.0-0 latte-dock apg apturl cheese-common gir1.2-totemplparser-1.0 gjs grilo-plugins-0.3-base gstreamer1.0-clutter-3.0 gstreamer1.0-pipewire libatkmm-1.6-1v5 libcairomm-1.0-1v5 libcheese-gtk25 libcheese8 libclutter-1.0-0 libclutter-1.0-common libclutter-gst-3.0-0 libclutter-gtk-1.0-0 libcogl-common libcogl-pango20 libcogl-path20 libcogl20 libcolord-gtk1 libcue2 libdazzle-1.0-0 libdazzle-common  libevdocument3-4 libevview3-3 libexempi8 libfreerdp-server2-2 libgjs0g libgnome-autoar-0-0 libgnome-games-support-1-3 libgnome-games-support-common  libgoa-backend-1.0-1 libgom-1.0-0 libgsf-1-114 libgsf-1-common libgsound0 libgtkmm-3.0-1v5 libgtop-2.0-11 libgtop2-common libgupnp-av-1.0-3 libgupnp-dlna-2.0-4 libgxps2 libkpathsea6 liblua5.3-0 libmalcontent-0-0 libmediaart-2.0-0  libpangomm-1.4-1v5 libphonenumber8 libqqwing2v5 libsynctex2 libsysmetrics1 libtracker-sparql-3.0-0 libvncserver1 libxkbregistry0 mutter-common nautilus-data network-manager-gnome p11-kit p11-kit-modules
 cp -r ${SRC_DIR}/confs/*                                                            ${CONF_DIR}
 
 
