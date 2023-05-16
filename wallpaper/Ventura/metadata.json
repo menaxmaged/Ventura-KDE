@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "menaxmaged@gmail.com",
+                "Name": "Mena Maged"
+               
+            }
+        ],
+        "Id": "Ventura",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Ventura"
+    
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#018786",
+        "Light": "#3d818d"
+    }
+}
